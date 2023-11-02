@@ -14,7 +14,21 @@ background: linear-gradient(90deg, rgba(196,11,78,1) 6%, rgba(9,9,121,1) 55%, rg
     /* background: rgb(255,209,212);
     background: linear-gradient(132deg, rgba(255,209,212,1) 3%, rgba(255,155,159,1) 39%, rgba(72,11,247,1) 70%); */
 }
-.wrapper_lada{
+.wrapper_manga{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(196,11,78);
+background: linear-gradient(90deg, rgba(196,11,78,1) 6%, rgba(9,9,121,1) 55%, rgba(5,175,25,1) 73%, rgba(0,212,255,1) 100%);
+}
+.wrapper_music{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(196,11,78);
+background: linear-gradient(90deg, rgba(196,11,78,1) 6%, rgba(9,9,121,1) 55%, rgba(5,175,25,1) 73%, rgba(0,212,255,1) 100%);
+}
+.wrapper_art{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -94,15 +108,15 @@ footer>h2{
     color: white;
 }
 
-/* Lada */
+/* for manga */
 
-.main_lada{
+.main_manga{
     display: flex;
     height: 100%;
     flex-direction: column;
     align-items: center;
 }
-.main_lada h3{
+.main_manga h3{
     font-family: 'Press Start 2P';
     width: 100%;
     /* padding: 40px; */
@@ -110,12 +124,12 @@ footer>h2{
     text-align: left;
 }
 
-.main_lada p {
+.main_manga p {
     font-family: 'Inter';
     font-size: 32px;
     width: 100%;
 }
-.card_lada{
+.card_manga{
   
     display: flex;
     flex-direction: column;
@@ -137,31 +151,31 @@ footer>h2{
     object-fit:cover;
     background-size: cover;
 }
-.lada_description{
+.manga_description{
     box-sizing: border-box;
     padding: 30px;
     width: 100%;
 }
 
-.lada_text{
+.manga_text{
     display: flex;
     flex-direction: row;
     width: 100%;
     gap: 24px;
 }
-.lada_text_left{
+.manga_text_left{
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-.lada_text_right{
+.manga_text_right{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 50%;
 }
-.lada_text_right>p{
+.manga_text_right>p{
     font-size: 17px;
     font-weight: 300;
 }
@@ -178,4 +192,169 @@ footer>h2{
 
 .right_p{
     text-align: right;
+}
+
+
+/* for music */
+
+.main_music{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.main_music h3{
+    font-family: 'Press Start 2P';
+    width: 100%;
+    /* padding: 40px; */
+    font-size: 40px;
+    text-align: left;
+}
+
+.main_music p {
+    font-family: 'Inter';
+    font-size: 32px;
+    width: 100%;
+}
+.card_music{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 48px;
+    background-color: #FFED00;
+    /* height: 200px; */
+    
+    /* height: 1480px; */
+}
+.card_photo{
+    width: 70%;
+    margin-top: 30px;
+}
+.card_photo>img{
+    width: 100%;
+    height: 70%;
+    object-fit:cover;
+    background-size: cover;
+}
+.music_description{
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+}
+
+.music_text{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 24px;
+}
+.music_text_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.music_text_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+.music_text_right>p{
+    font-size: 17px;
+    font-weight: 300;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item>p{
+    font-weight: 300;
+    font-size: 14px;
+
+}
+
+/* for art */
+
+.main_art{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.main_art h3{
+    font-family: 'Press Start 2P';
+    width: 100%;
+    /* padding: 40px; */
+    font-size: 40px;
+    text-align: left;
+}
+
+.main_art p {
+    font-family: 'Inter';
+    font-size: 32px;
+    width: 100%;
+}
+.card_art{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 48px;
+    background-color: #ffffff;
+    /* height: 200px; */
+    
+    /* height: 1480px; */
+}
+.card_photo{
+    width: 70%;
+    margin-top: 30px;
+}
+.card_photo>img{
+    width: 100%;
+    height: 70%;
+    object-fit:cover;
+    background-size: cover;
+}
+.art_description{
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+}
+
+.art_text{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 24px;
+}
+.art_text_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.art_text_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+.art_text_right>p{
+    font-size: 17px;
+    font-weight: 300;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item>p{
+    font-weight: 300;
+    font-size: 14px;
+
 }
