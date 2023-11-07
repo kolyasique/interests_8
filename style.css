@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100;300&family=Press+Start+2P&display=swap');
 
+
 body{
     padding: 0;
     margin: 0;
@@ -178,4 +179,56 @@ footer>h2{
 
 .right_p{
     text-align: right;
+}
+
+/* bengal */
+
+.wrapper_bengal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(196,11,78);
+    background: linear-gradient(90deg, rgba(196,11,78,1) 6%, rgba(9,9,121,1) 55%, rgba(5,175,25,1) 73%, rgba(0,212,255,1) 100%);
+}
+.main_bengal{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.card_bengal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 48px;
+    background-color: #FFED00;
+}
+.bengal_description{
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+}
+.bengal_description h3{
+    font-family: 'Press Start 2P';
+    width: 100%;
+    font-size: 40px;
+    text-align: left;
+}
+
+/* orange */
+.wrapper_orange{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(255,209,212);
+    background: linear-gradient(128deg, rgba(255,209,212,1) 3%, rgba(255,163,166,1) 34%, rgba(255,155,159,1) 39%, rgba(72,11,247,1) 70%);
+}
+.card_orange{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 48px;
+    background-color: #ffffff;
 }
